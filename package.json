@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.4.17"
+  },
+  "scripts": {
+    "build:css": "node ./node_modules/tailwindcss/lib/cli.js -i ./css/input.css -o ./css/output.css",
+    "verify": "node --test tests/*.test.cjs"
   }
 }
