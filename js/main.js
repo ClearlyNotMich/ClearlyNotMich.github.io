@@ -32,6 +32,9 @@ document.addEventListener("DOMContentLoaded", function() {
   const prevBtn = document.getElementById('prevBtn');
   const nextBtn = document.getElementById('nextBtn');
 
+  // The gallery is present only on the Projects page.
+  if (!carousel || !prevBtn || !nextBtn) return;
+
   // Array to store media paths (images & videos)
   const mediaPaths = [
     { type: 'image', src: '../assets/projects/project1.jpg' },
