@@ -1,4 +1,4 @@
-# Michal Kozdon — portfolio website
+# Portfolio website
 
 Static portfolio pages for [clearlynotmich.github.io](https://clearlynotmich.github.io/).
 
